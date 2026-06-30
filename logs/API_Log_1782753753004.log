@@ -1,0 +1,368 @@
+Request method:	GET
+Request URI:	https://simple-books-api.click/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 15
+Connection: keep-alive
+Date: Mon, 29 Jun 2026 17:22:35 GMT
+X-Amzn-Trace-Id: Root=1-6a42a9db-2223514441e61d947920ae75;Parent=447b2fb458f36929;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: eec8d34c-69e5-41fd-9bdf-e393684924ae
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: fu96UH_0IAMErNA=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 2fdab31714a9ba8fc39c70a3c382663c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: OBsGPbPaIghI4nxBogiIUJ3HETac42w2BHXPsfECwGYlCe6ygCOyYQ==
+
+{
+    "status": "OK"
+}
+Request method:	GET
+Request URI:	https://simple-books-api.click/books
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 417
+Connection: keep-alive
+Date: Mon, 29 Jun 2026 17:22:37 GMT
+X-Amzn-Trace-Id: Root=1-6a42a9dd-3bcac81a23834caf358d9fb7;Parent=7b0a47dd3fe33a4b;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: cfa50e61-44c2-4191-a344-2771fdaa4358
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: fu96mFJloAMEkmg=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 f3d62788f3df70f3fa8c3dd61fd3216a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: hySzAfrNsCK3Wt_spzHGKXSd3g0JzT6l6-LFpQqVSLrAuZEfHUZpbw==
+
+[
+    {
+        "id": 1,
+        "name": "The Russian",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 3,
+        "name": "The Vanishing Half",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 4,
+        "name": "The Midnight Library",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 6,
+        "name": "Viscount Who Loved Me",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 2,
+        "name": "Just as I Am",
+        "type": "non-fiction",
+        "available": false
+    },
+    {
+        "id": 5,
+        "name": "Untamed",
+        "type": "non-fiction",
+        "available": true
+    }
+]
+Request method:	GET
+Request URI:	https://simple-books-api.click/books?type=fiction&limit=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	type=fiction
+				limit=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 136
+Connection: keep-alive
+Date: Mon, 29 Jun 2026 17:22:37 GMT
+X-Amzn-Trace-Id: Root=1-6a42a9dd-5ee3ea832bc8f3c116c97dc0;Parent=343c4850d5af7c75;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 32a7382a-8fa7-49f6-aecb-e643ee10ec91
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: fu96rH1SIAMEq7A=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 e6a37c61d86d6e0bcdada5b6b948004c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: _rsdfuejmTaP5Ua0_kTZE7jXnmoG3ANUhEVwb08LzU7utinSuSvVkA==
+
+[
+    {
+        "id": 1,
+        "name": "The Russian",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 3,
+        "name": "The Vanishing Half",
+        "type": "fiction",
+        "available": true
+    }
+]
+Request method:	POST
+Request URI:	https://simple-books-api.click/api-clients
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "clientName": "Rajkumar",
+    "clientEmail": "raj1782753757431@gmail.com"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 82
+Connection: keep-alive
+Date: Mon, 29 Jun 2026 17:22:38 GMT
+X-Amzn-Trace-Id: Root=1-6a42a9de-0e56bb8a52d2d6b952bf6e63;Parent=01c50f5b2754b402;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: ce87699e-0588-4dce-b660-08e1773ee643
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: fu960EF-oAMEPQg=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 e4257444e1baa2e44ac1a48dd385109c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: EaFYH7ytYYATf3YBOkZ7pMt1AaUr_1uE68ePd32mmL0ishk1tNnV-A==
+
+{
+    "accessToken": "eeeffa5315143a4e0d0af4228768d359ceeb7f19643d06e0998874da7015e4b0"
+}
+Request method:	POST
+Request URI:	https://simple-books-api.click/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eeeffa5315143a4e0d0af4228768d359ceeb7f19643d06e0998874da7015e4b0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "bookId": 1,
+    "customerName": "Rajkumar"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 50
+Connection: keep-alive
+Date: Mon, 29 Jun 2026 17:22:39 GMT
+X-Amzn-Trace-Id: Root=1-6a42a9df-77fc5a93218d3b172c44df8a;Parent=6becb6a6fb9be989;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: b9f727e1-6a8c-482e-931e-34d503f0dc81
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: fu969G_CoAMEQPg=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 00a0f60c17ef48e355a656be0c3da1de.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: w33PCR9NR-R5Nk4QBAkOD034CdP115_AxJj2y770sprGlt_l1Jynfg==
+
+{
+    "created": true,
+    "orderId": "mOI7jMw8W3zJKxqAeNIIu"
+}
+Request method:	GET
+Request URI:	https://simple-books-api.click/orders/mOI7jMw8W3zJKxqAeNIIu
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eeeffa5315143a4e0d0af4228768d359ceeb7f19643d06e0998874da7015e4b0
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 106
+Connection: keep-alive
+Date: Mon, 29 Jun 2026 17:22:40 GMT
+X-Amzn-Trace-Id: Root=1-6a42a9e0-126832e25b9bd8d27cfa0ea2;Parent=3bb2591e421aae03;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: fa8530db-a736-4e3f-89d1-d08f409a418c
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: fu97HHdNIAMErBQ=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 5d782e204f31cf29d8ed8448ac335be4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: rftDGPdX-I-UuPGJ0qj2wVRmwlehQhj8znETuf-iDjrVoNmjg0qtRA==
+
+{
+    "id": "mOI7jMw8W3zJKxqAeNIIu",
+    "bookId": 1,
+    "customerName": "Rajkumar",
+    "quantity": 1,
+    "timestamp": 1782753759419
+}
+Request method:	PATCH
+Request URI:	https://simple-books-api.click/orders/mOI7jMw8W3zJKxqAeNIIu
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eeeffa5315143a4e0d0af4228768d359ceeb7f19643d06e0998874da7015e4b0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerName": "Automation Tester"
+}
+HTTP/1.1 204 No Content
+Content-Type: application/json
+Content-Length: 0
+Connection: keep-alive
+Date: Mon, 29 Jun 2026 17:22:40 GMT
+X-Amzn-Trace-Id: Root=1-6a42a9e0-7a006cfe699fa4be207d83d6;Parent=65c0428855736218;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: cc4b21d0-0656-4178-8b01-1f34b1e814ce
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: fu97LHlHoAMEHpA=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 5d782e204f31cf29d8ed8448ac335be4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: N2eIY4NE2jVHi6_Hq2KNMBMa1Dsi2MB8YTShYTLj8E7jCkbWqGrMYQ==
+Request method:	GET
+Request URI:	https://simple-books-api.click/orders/mOI7jMw8W3zJKxqAeNIIu
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eeeffa5315143a4e0d0af4228768d359ceeb7f19643d06e0998874da7015e4b0
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 115
+Connection: keep-alive
+Date: Mon, 29 Jun 2026 17:22:41 GMT
+X-Amzn-Trace-Id: Root=1-6a42a9e1-43d37c1d6feefc370e2b8c24;Parent=1c4ec7d34710668b;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 273b916a-ad5d-432d-a23d-605a5bb5d89a
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: fu97RGgNoAMENfQ=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 2f8bce85b3232f01dc0a9ceec714d90c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: v8iQaIp33_tBNtr8dkBBGIyk7OjHE8w8gDsQT6yCZVucKiMq_1mkBw==
+
+{
+    "id": "mOI7jMw8W3zJKxqAeNIIu",
+    "bookId": 1,
+    "customerName": "Automation Tester",
+    "quantity": 1,
+    "timestamp": 1782753759419
+}
+Request method:	DELETE
+Request URI:	https://simple-books-api.click/orders/mOI7jMw8W3zJKxqAeNIIu
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eeeffa5315143a4e0d0af4228768d359ceeb7f19643d06e0998874da7015e4b0
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Content-Type: application/json
+Content-Length: 0
+Connection: keep-alive
+Date: Mon, 29 Jun 2026 17:22:41 GMT
+X-Amzn-Trace-Id: Root=1-6a42a9e1-28837e0345bd949654904508;Parent=47bc77f74cedf337;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: e9ed8d32-9448-454f-804b-e8443b062a17
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: fu97XGDroAMEncA=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 f3d62788f3df70f3fa8c3dd61fd3216a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: v52Q5qlXxI4T1Qenx9-zfUvxFKH_EX7cSHG8eKJNi_JwPh4eft-hJA==
+Request method:	GET
+Request URI:	https://simple-books-api.click/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer InvalidToken
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Content-Type: application/json
+Content-Length: 33
+Connection: keep-alive
+Date: Mon, 29 Jun 2026 17:22:42 GMT
+X-Amzn-Trace-Id: Root=1-6a42a9e2-711a5a78478cbbcb5515ffb9;Parent=6ea78c8422956b11;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 8c58aebf-1124-4864-8f1e-72222fd97fa7
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: fu97cE_nIAMEOZw=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Error from cloudfront
+Via: 1.1 eacc4bc352ad91f6c2b8728046877502.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: mQWdtNErNNrh1aUrkVM8HCOWD4g9F8HP4qnBZwwXBtiSsdaRZsJIOg==
+
+{
+    "error": "Invalid bearer token."
+}

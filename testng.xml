@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SimpleBooksSuite">
+
+    <test name="API Tests">
+
+        <classes>
+
+            <class name="tests.StatusTest"/>
+
+            <class name="tests.BooksTest"/>
+
+            <class name="tests.OrderTest"/>
+
+            <class name="tests.NegativeTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
